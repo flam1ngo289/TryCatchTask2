@@ -1,6 +1,6 @@
 #ifndef quadrangle_hpp
 #define quadrangle_hpp
-
+#include "GeometryExceptions.hpp"
 #include "figure.hpp"
 
 class Quadrangle : public Figure {

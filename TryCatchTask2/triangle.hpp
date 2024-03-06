@@ -1,8 +1,9 @@
 #ifndef triangle_hpp
 #define triangle_hpp
 #include "figure.hpp"
-
+#include "GeometryExceptions.hpp"
 #include <stdio.h>
+
 
 class Triangle : public Figure{
 protected:
@@ -11,6 +12,7 @@ protected:
     
 public:
     Triangle(int side1, int side2, int side3, int angle1, int angle2, int angle3);
+    
     void print_info();
 };
 

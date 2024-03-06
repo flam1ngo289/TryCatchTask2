@@ -19,6 +19,7 @@
 		388E65AF2B7B81EB00901155 /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388E65AD2B7B81EB00901155 /* square.cpp */; };
 		388E65B22B7B825400901155 /* rhombus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388E65B02B7B825400901155 /* rhombus.cpp */; };
 		388E65B52B7B82DF00901155 /* print.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388E65B32B7B82DF00901155 /* print.cpp */; };
+		388E66042B8B8C6D00901155 /* GeometryExceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 388E66022B8B8C6D00901155 /* GeometryExceptions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		388E65B12B7B825400901155 /* rhombus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = rhombus.hpp; sourceTree = "<group>"; };
 		388E65B32B7B82DF00901155 /* print.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = print.cpp; sourceTree = "<group>"; };
 		388E65B42B7B82DF00901155 /* print.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = print.hpp; sourceTree = "<group>"; };
+		388E66022B8B8C6D00901155 /* GeometryExceptions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryExceptions.cpp; sourceTree = "<group>"; };
+		388E66032B8B8C6D00901155 /* GeometryExceptions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GeometryExceptions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +77,7 @@
 		388E65822B7B6ABF00901155 = {
 			isa = PBXGroup;
 			children = (
-				388E658D2B7B6ABF00901155 /* MultifileTask3 */,
+				388E658D2B7B6ABF00901155 /* TryCatchTask2 */,
 				388E658C2B7B6ABF00901155 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +90,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		388E658D2B7B6ABF00901155 /* MultifileTask3 */ = {
+		388E658D2B7B6ABF00901155 /* TryCatchTask2 */ = {
 			isa = PBXGroup;
 			children = (
 				388E658E2B7B6ABF00901155 /* main.cpp */,
@@ -113,8 +116,10 @@
 				388E65B12B7B825400901155 /* rhombus.hpp */,
 				388E65B32B7B82DF00901155 /* print.cpp */,
 				388E65B42B7B82DF00901155 /* print.hpp */,
+				388E66022B8B8C6D00901155 /* GeometryExceptions.cpp */,
+				388E66032B8B8C6D00901155 /* GeometryExceptions.hpp */,
 			);
-			path = MultifileTask3;
+			path = TryCatchTask2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 388E65862B7B6ABF00901155 /* Build configuration list for PBXProject "MultifileTask3" */;
+			buildConfigurationList = 388E65862B7B6ABF00901155 /* Build configuration list for PBXProject "TryCatchTask2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -186,6 +191,7 @@
 				388E65A62B7B7EED00901155 /* quadrangle.cpp in Sources */,
 				388E65A02B7B7D3D00901155 /* isoscelestriangle.cpp in Sources */,
 				388E65B52B7B82DF00901155 /* print.cpp in Sources */,
+				388E66042B8B8C6D00901155 /* GeometryExceptions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +332,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		388E65862B7B6ABF00901155 /* Build configuration list for PBXProject "MultifileTask3" */ = {
+		388E65862B7B6ABF00901155 /* Build configuration list for PBXProject "TryCatchTask2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				388E65902B7B6ABF00901155 /* Debug */,

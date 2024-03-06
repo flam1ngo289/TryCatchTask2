@@ -5,7 +5,7 @@
 
 class RightTriangle : public Triangle{
 public:
-    RightTriangle(int side1, int side2, int side3, int angle1, int angle2);
+    RightTriangle(int side1, int side2, int side3, int angle1, int angle2, int angle3);
 };
 
 #endif /* righttriangle_hpp */
